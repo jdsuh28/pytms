@@ -117,10 +117,7 @@ import math
 import copy
 import random
 import sys
-if sys.version_info[0] < 3:
-    from tkinter import *
-else:
-    from tkinter import *
+from tkinter import *
 import Pmw
 ################################################################################
 
