@@ -92,7 +92,7 @@ DISCLAIMER
 ################################################################################
 ################################################################################
 '''
-
+from tkinter import *
 from __future__ import print_function
 from __future__ import absolute_import
 
@@ -107,7 +107,6 @@ Version = '1.2'
 
 
 ################################################################################
-from tkinter import *
 import pymol
 from pymol import cmd
 from chempy import cpv
