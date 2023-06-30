@@ -107,6 +107,7 @@ Version = '1.2'
 
 
 ################################################################################
+from tkinter import *
 import pymol
 from pymol import cmd
 from chempy import cpv
@@ -117,10 +118,10 @@ import math
 import copy
 import random
 import sys
-if sys.version_info[0] < 3:
-    from Tkinter import *
-else:
-    from tkinter import *
+# if sys.version_info[0] < 3:
+#     from Tkinter import *
+# else:
+#     from tkinter import *
 import Pmw
 ################################################################################
 
